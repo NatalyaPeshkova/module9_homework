@@ -1,0 +1,79 @@
+body {    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    /* box-sizing: border-box; */
+}
+
+h1 {
+    display: flex;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+.main-title{
+    font-size: 20px;
+    color: black;
+}
+
+.container {
+    width: 90%;;
+    margin: 0 auto;
+    /* border: solid 1px green; */
+}
+
+.fieldset {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    margin: 0 auto;
+    padding: 10px 30px 20px;
+    border: none;    
+    /* border: 3px orange solid;
+    border-radius: 5px; */
+    /* margin-bottom: 50px; */
+
+}
+
+.label {
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+.input {
+    margin-bottom: 15px;
+    height: 50px;
+    background-color: gainsboro;
+    border-radius: 5px;
+    border: rgb(186, 186, 186) .4px solid;
+    padding: 10px;
+}
+
+.btn {
+    width: 100px;
+    height: 50px;
+    background-color:rgb(65, 145, 82);
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-bottom: 50px;
+    align-self: center;
+}
+
+.button:hover {
+    opacity: .5;
+}
+
+.photos {
+    display: flex; 
+    flex-direction: row; 
+    flex-flow: wrap;
+}
+
+.dark {
+    background-color: black;
+}
